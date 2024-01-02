@@ -15,7 +15,10 @@
     "features": {
         "ghcr.io/devcontainers/features/node": {
             "version": "14",
-        }
+        },
+        "ghcr.io/devcontainers-contrib/features/apt-get-packages": {
+            "packages": "libsecret-1-0",
+        },
     },
 
     "customizations": {
